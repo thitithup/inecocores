@@ -20,4 +20,4 @@ classifiers = [
 
 [project.urls]
 "Homepage" = "https://github.com/thitithup/inecocores.git"
-"Bug Tracker" = "https://github.com/thitithup/inecocores.git/issues"
+"Bug Tracker" = "https://github.com/thitithup/inecocores/issues"
