@@ -30,7 +30,7 @@ class Service:
         :param customerId:
         :param reportId:
         :param parameters:
-        :return: {'status': 'ok', 'output': 'base64format'}
+        :return: {'status': 'ok', 'output': 'base64format', 'type':'ineco'}
         """
         data = {
             'customerId': customerId,
@@ -45,4 +45,9 @@ class Service:
 # if __name__ == "__main__":
 #     s = Service()
 #     s.check_report(customerId='1', reportId="123", parameters={"a": 1, "b": 2, "c": 3})
-#     s.call_report(customerId='1', reportId="123", parameters={"a": 1, "b": 2, "c": 3})
+#     sample_parameter = {
+#         'js_parameter_name': 'IDS',
+#         'js_parameter_value': 'sale_order.id = 32069',
+#     }
+#     result = s.call_report(customerId='1', reportId="123", parameters=sample_parameter)
+#     print(result['output'])
